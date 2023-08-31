@@ -4,7 +4,8 @@ M02_Lab.py
 This program is designed to process student information and determine whether 
 they qualify for the Dean's List or the Honor Roll based on their GPA. 
 The user will be prompted to fill out information such as the student's
-first name, last name, and GPA. 
+first name, last name, and GPA. This program will run 5 times or whenever the 
+user wishes to stop. 
 """
 
 
