@@ -14,13 +14,15 @@ def Main():
     studentCount = 0
 
     while True: 
+        #stores the student's last name
         lastName = input("What is the student's last name? or enter ZZZ to quit. : ")
         #stops program if user enters 'ZZZ'
         if lastName == "ZZZ": 
             break 
 
+        #stores the student's first name 
         firstName = input("What is the student's first name?: ")
-        fullName = f'{firstName} {lastName}'
+        fullName = f'{firstName} {lastName}' #stores student's first and last name 
         
         while True: 
             try: 
