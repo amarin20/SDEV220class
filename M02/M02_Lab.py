@@ -16,7 +16,7 @@ def Main():
     while True: 
         #stores the student's last name
         lastName = input("What is the student's last name? or enter ZZZ to quit. : ")
-        #stops program if user enters 'ZZZ'
+        #stops program if user enters 'ZZZ'2
         if lastName == "ZZZ": 
             break 
 
